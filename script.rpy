@@ -196,4 +196,3 @@ label habitat:
     m "En effet les individus au loin n’ont pas su s’adapter mais pour ceux près de la plage après un long temps d’adaptation, ils vont pouvoir s’épanouir et peut-être conquérir la terre ferme grâce à de nouveaux atouts acquis et perfectionné au cours de nombreuse générations et de mutations."
 
     return
-   

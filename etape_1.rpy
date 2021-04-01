@@ -353,9 +353,9 @@ label scenario_vertebre_oui_terrestre:
     menu : 
         "Préfères tu poursuivre avec les descendants des Carnicroqus ou des Broutiminus?"
 
-        "Lignée des Carnicroqus " :
+        "Lignée des Carnicroqus" :
             jump Lignee_des_Carnicroqus 
-        "Lignée des Broutiminus " :
+        "Lignée des Broutiminus" :
             m "Hello, me revoilà, as-tu remarqué un animal étrange dans le marais où nous nous sommes rendus précédemment ?"
 #(Retour sur le marais, dans un le cours d’eau mettre un animal qui ressemble à un Squelettus Chordus) 
 
@@ -379,7 +379,6 @@ label scenario_vertebre_oui_terrestre:
     
 
 
-
     return
 
 label meteorite_rose:
@@ -397,6 +396,7 @@ label meteorite_rose:
     n "Cette mutation étant un avantage sélectif va lui procurer un plus haut taux de survie ainsi qu’une plus grande chance de reproduction à lui et à sa descendance."
 
     n "Petit à petit cette nouvelle espèce qualifiée de colorovore rosophile va devenir de plus en plus importante alors que le pellegrinus smakus va s’éteindre…"
+jump rosovore
 
     return
 
@@ -426,3 +426,168 @@ label Lignee_des_Carnicroqus :
 
     return
 
+label rosovore 
+
+    n "Apres quelques milliers d’années, un des descendants de notre Rosus fermatus, le Rosus figarus vit dans une grande partie de l’océan et surtout dans les grandes profondeurs car la principale source de nourriture de notre ami est la plante Abyssae, uniquement présente dans le fond de l’océan sur les abysses."
+    n "L’eau de l’océan fait +- 17-18°C."
+
+#(photo de la plante)
+
+#(video/image de la collision et explosion) 
+
+    n "L’atmosphère de notre planète s’est fortement calmée. Les météorites ne tombent plus sur Hermiteon 1."
+    
+    n "La diminution de chaleur produite lors de la collision des météorites sur la planète provoque un refroidissement de la mer constant au fil du temps."
+    
+    n "Quelques dizaines de millions d’années plus tard, l’eau profonde avait perdu plus de 15° et ne faisait donc plus que 2°."
+    
+    n "Cependant, les eaux en surface chauffent grâce aux rayons du soleil et aux terres avoisinantes ce qui provoque donc une variation décroissante de la chaleur du haut vers le bas."
+    
+    n "Certaines populations, plus frileuses, migrent vers les eaux proches de la surface alors que d’autres restent dans les profondeurs."
+
+    n "Dans les profondeurs, la plante Abyssae est toujours présente car elle résiste à de forts changements de température."
+
+    n "Cependant une caractéristique environnementale du Rosus figarus, la température de l’eau, a elle été fortement changée."
+
+    n "Au cours du temps certains nouveaux cohabitants, tel que l’Aqua jadus s’y installe."
+
+#(image d’un fond marin peu lumineux)
+
+    n "Dans les eaux superficielles (eau de surface), l’eau a donc une température voisine de celle d’il y a des millions d’années (16°)."
+
+    n "Cependant la principale source de nourriture, Abyssae n’est plus présente."
+
+    menu :
+        "Alors petit scientifique, veux-tu suivre l’aventure de nos amis Rosus figarus vivant dans les profondeurs ou dans celui qui vit à la surface ?"
+
+        "les profondeurs":
+        jump rosovore_profondeur
+
+        "la surface":  
+
+#(Apparition de monsieur ADN)
+
+        m "Je vois que tu as choisi de suivre l’aventure du Rosus figarus vivant en surface."
+    
+    m "La chaleur de l’eau est donc similaire mais leur principale source de nourriture n’est pas présente."
+
+    m "Beaucoup d’insectes vivent dans les quelques mètres au-dessus de l’eau tels que le Tchumnus ou le Avanzatus."
+
+    m "Au fil du temps, les nageoires latérales du Rosus figarus vont se développer et former des ailes."
+
+    m "Celui-ci est donc capable de voler à quelques mètres de la surface afin de manger des insectes et ainsi se nourrir."
+
+    m "Une nouvelle espèce est née : Rosus aérius."
+
+    return
+
+label rosovore_profondeur
+
+#(Apparition de monsieur ADN)
+
+    m "Tu as donc décidé de suivre l’aventure du Rosus figarus vivant dans les profondeurs."
+
+    m "La chaleur de l’eau est cependant beaucoup trop basse pour l’espèce."
+
+    m "Les fonds marins, habités par le Rosus figarus, sont éclairés par des cnidaires qui produisent de la lumière chimique."
+
+    m "Au cours des générations, ton ami va développer une caractéristique assez spécifique."
+
+    m "Comme tu l’as bien compris, plusieurs « solutions » ont été trouvées,"
+    
+    m "mais celle-ci fut la plus avantageuse et donc celle qui s’est le plus éparpillée grâce à la plus longue survie de l’individu et sa reproduction."
+
+    m "Celui-ci va se gonfler d’eau grâce à des pores filtreurs et fait sortir par ceux-ci des feuilles."
+
+    m "Ces feuilles captent la lumière et créent de l’énergie qui permet de réchauffer l’individu."
+
+    m "Cette eau chaude permet de garder l’individu au chaud et de conserver ses organes."
+
+    m "Cette nouvelle espèce se nomme Rosus globulus."
+    
+    return
+
+label rosovore_profondeur_mode_de_communication
+
+#(Vue sur la planète 7 depuis l’espace) 
+
+    n "Avançons désormais jusqu’à l’époque la plus récente pour laquelle nous disposons encore d’informations concernant la vie sur Hermiteon-1."
+
+#(Plonge sur une image complètement noire)
+
+    n "Pour voir ce qu’il est advenu des descendants de nos Casscoubrisus, il nous faut plonger dans des profondeurs extrêmes."
+
+    n "Une fois arrivé à plus de 9 km dans les abysses, nous pouvons allumer les lampes de notre robot espion pour voir la biodiversité de ce milieu."
+
+#(L’image devient clair et on y voit les animaux dont on aura besoin pour cette étape)
+
+    n "Wouah on dirait qu’aucune plante ne peut se développer dans les environs … en effet la lumière du soleil ne peut illuminer à une telle distance."
+
+    n "Allumons quelques instants notre flash pour observer les animaux présents."
+
+#(Apparition des animaux, un Nemus pelligrinus et un Alfremart Grouillus avec les deux têtes qui sortent d’un trou dans le sol)
+
+    n "Oh mais que voyons nous là ? Ne serait-ce pas un Nemus pelligrinus ! L’animal avec le baffle sur la tête !"
+
+    n "Cet individu comme tu peux le constater est largement plus petit que son ancêtre et dispose de caractéristiques différentes."
+
+    n "Tout d’abord le baffle sur la tête, il s’agit d’un organe permettant aux animaux d’envoyer des ondes dans l’eau afin de communiquer, détecter de la nourriture et ensuite de se déplacer par rapport aux obstacles et autres rares prédateurs de ce milieu, tu peux notamment en voir un en bas à droite , il s’agit d’un Alfremart Groutraillus"
+
+    n "De plus as-tu vu qu’on n’observe plus de longues queues ou de voiles chez ces individus ?"
+
+    n "C’est dû au fait que dans cette niche écologique, la présence de tels organes leurs est inutiles."
+
+    n  "Ainsi au cours des générations, une sélection s’est installée chez les populations de Casscoubrisus de cette région, favorisant le développement du bouton présent sur leurs crânes en un moyen de communication sophistiqué à l’instar du voile et de la longue queue qui leur est inutile dans à cet endroit."
+
+#(Vue sur un antre menant vers une grotte) 
+
+    n "Tiens, nos analyses indiquent que de nombreux signes de vies ont été détecté à l’intérieur de cette grotte. Allons voir ça de plus près."
+
+#(vue de la grotte comme une fourmilière ou un intestin avec les plantes qui forment les microvillis et plein de Samson castegnetus) 
+
+    n "Incroyable ! Il s’agit de Samson castagnetus ! Des cousins très proche des Nemus pelligrinus ! Ça veut donc dire qu’eux aussi sont des descendants de Casscoubrisus !"
+
+    n "D’après nos données, ces animaux fonctionnent à la manière d’une ruche ou d’une fourmilière, les tunnels présents de base dans ces grottes servant de galerie."
+
+    n "Tu peux voir en bas à droite deux Samson énorme, il s’agit du roi et de la reine de cette colonie. De plus as-tu remarqué cet appendice en forme de castagnette qu’ils abordent au niveau du crâne ?"
+
+    n "Il s’agit comme pour les Nemus pelligrinus d’organe permettant la communication entre les Samson castagnetus."
+
+    n "Lorsque le roi ou la reine meurt, ce sont les Samson ayant les plus grosses castagnettes qui prennent leurs places."
+
+    menu : 
+
+       "Bien jeune scientifique te voici fasse à ton dernier choix, si tu devais poursuivre ton aventure, avec quel animal souhaiterais tu voir la descendance ?"
+
+       "J’aurai aimé savoir ce qu’il se passe pour les Nemus pelligrinus"
+       jump Nemus_pelligrinus
+
+       "J’aurai aimé savoir ce qu’il se passe pour les Samson castegnetus"
+
+#(Monsieur ADN apparaît)
+
+    m "Avant de nous quitter laisse-moi t’expliquer quelque chose :"
+
+    m "Comme dans chaque population d’espèce vivante, tu as pu observer qu’il y en avait avec des différences (tailles , couleurs,…)."
+
+    m "Cette population vivant dans cet environnement précis a alors au cours des générations subis plusieurs sélections favorisant les individus les mieux adaptés et ainsi permettant au cours du temps la transmission des caractères qu’ils avaient en eux et qui leurs donnaient cet avantage."
+
+    m "Par exemple, le fait d’avoir un baffle sur la tête est d’une importance primordiale !"
+
+    m "En effet, les individus ayant les plus gros baffles peuvent être entendus par les femelles se trouvant très loin et ainsi avoir plus de chance de se reproduire avec."
+
+    m "Il s’agit là d’un cas de sélection sexuelle car chez les femelles, ce baffle n’est pas aussi développé que ceux des mâles."
+
+    m "Cependant, les individus ayant des baffles énormes peuvent aussi se faire plus facilement repérer par des prédateurs tels que les Alfremart Groutraillus."
+
+    m "Ainsi au cours du temps, un équilibre entre le fait de posséder un baffle assez imposant et le fait d’être plus facilement repéré par les prédateurs s’effectue."
+
+    m "Bien jeune scientifique, passons à la suite !"
+
+#(Image de monsieur ADN) 
+
+    n "Nous voici arriver au bout de notre aventure, ne disposant pas assez de données concernant l’évolution de cette lignée nous devons donc nous arrêter car il est impossible de prédire à long terme ce vers quoi l’évolution mènera nos chers amis les habitants de la planète Hermiteon-1."
+    
+#(En fonction du scénario, faire apparaître l’arbre phylogénétique de l’espèce) 
+
+    return
