@@ -279,10 +279,7 @@ label scenario_vertebre_oui_marin:
     m "Cette mutation étant un avantage sélectif va lui procurer un plus haut taux de survie ainsi qu’une plus grande chance de reproduction à lui et à sa descendance."
 
     m "Petit à petit cette nouvelle espèce qualifiée de colorovore rosophile va devenir de plus en plus importante alors que le pellegrinus smakus va s’éteindre..."
-
-
-
-
+jump chocolavore
 
     return
 
@@ -400,6 +397,7 @@ jump rosovore
 
     return
 
+
 label Lignee_des_Carnicroqus :
 
 #Mister ADN apparaît 
@@ -429,7 +427,8 @@ label Lignee_des_Carnicroqus :
 label rosovore 
 
     n "Apres quelques milliers d’années, un des descendants de notre Rosus fermatus, le Rosus figarus vit dans une grande partie de l’océan et surtout dans les grandes profondeurs car la principale source de nourriture de notre ami est la plante Abyssae, uniquement présente dans le fond de l’océan sur les abysses."
-    n "L’eau de l’océan fait +- 17-18°C."
+    
+    n "L’eau de l’océan fait plus ou moins 17-18°C."
 
 #(photo de la plante)
 
@@ -507,7 +506,104 @@ label rosovore_profondeur
     
     return
 
-label rosovore_profondeur_mode_de_communication
+label chocolavore :
+
+    n "Après avoir quitté nos chers Pelligrinus Smakus, un nouveau voyage dans le temps de 15 millions d’années a été initié."
+
+    n "Je te propose maintenant d’observer ce à quoi peut bien ressembler la faune locale et la flore."
+
+# (Image d’un archipel (le même que celui fait pour Aquarius-Asichinus) où on voit des plantes Kindorus buenos et ainsi que d’autres types plantes de buenos : des Mars buenos, des Malteser buenos, …)
+
+    n "Incroyable, il semble que la plante qui a été infecté par le virus et dont les Pelligrinus smakus raffolaient, a elle aussi évolué pour donner de nouvelles espèces de plantes aquatiques."
+
+    n "On peut y voir des Mars buenos, des Matleser buenos et encore bien d’autres !"
+
+    n "Après nous être intéressés à la flore regardons la faune et si nous trouvons des descendants de Pelligrinus Smakus dans le coin."
+
+#(Apparition de la faune locale dont des Casscoubrisus Pelligrinus)
+
+    n "Oh regarde là ! Ne seraient ce pas un banc de Casscoubrisus Pelligrinus !"
+
+    n "Mais si juste au-dessus de cet Aqua-rius Asichinus, l’espèce de truc vert !"
+
+    n "En effet il s’agit bien de Casscoubrisus Pelligrinus, tu as remarqué leur petite bosse en forme d’ampoule sur la tête ?"
+
+    n "Il s’agit d’un organe leur permettant de communiquer entre eux par des vibrations. De plus tu as vu leurs longues queues arrières ?"
+
+# (Zoom sur un Casscoubrisus Pelligrinus mâle et femelle)
+
+    n "Et bien il s’agit d’un signe distinctif entre les mâles et les femelles. Les mâles ont de longues queues avec un grand-voile alors que les femelles ont de petites queues sans voile."
+
+    n "Cette queue leur sert notamment à briser d’un coup sec les différents prédateurs qui s’approcheraient de trop près des femelles, elle sert aussi au combat entre les mâles pour conserver les femelles."
+
+    n "De plus, tu as vu à quel point ils sont plus longs que leur ancêtre ?"
+
+    n "C’est parce que dans ces eaux, les Casscoubrisus sont des animaux craints et ne possèdent pas de prédateurs sauf pour les petits et les femelles égarés. On peut notamment en voir un de leur prédateur sur le bas gauche près de ce rocher."
+
+# (Mettre un Vioxes pelligrinus près d’un rocher en bas à gauche de l’image générale)
+
+    n "Il s’agit d’un Vioxes pelligrinus. Et oui tu as bien entendu, parmi les populations de Pelligrinus, certain ont conservé le mode alimentaire de leurs ancêtre chocolavore tandis que d’autres sont revenus à un régime carnivore."
+
+    n "Bien je te propose de regarder au niveau des différentes populations de la planète si l’espèce s’est éparpillée ou si elle est endémique à cette région."
+
+#Monsieur ADN apparaît 
+
+    m "Hey salut, c’est à nouveau moi monsieur ADN, j’espère que tu apprécies ton aventure ! Viens avec moi regarder où se trouve des populations de ton espèce"
+
+# (Apparition de la planète avec des Casscoubrillus juste d’un côté et pas de l’autre) 
+
+    m "Il semblerait que l’espèce de ta bestiole se caractérise en deux populations principales, elle est juste d’un côté de la teuté du coup cv dire qu’elle n’est pas endémique à ton bled d’hawain."
+
+    m "En gros endémique cv dire que tu vas retrouver ton espèce qu’à un endroit précis de la planète, comme c’est le cas des Aquarius qui ne vivent que là."
+
+    m "C’est d’ailleurs à partir d’espèce endémique que l’idée de la théorie de l’évolution est venue à Msieur Darwin. Allez c’est bon dégage tu m’as saoulé là."
+
+# (Retour sur l’image de l’Archipel avec une grotte où on peut voir des plantes noires dedans) 
+
+    n "Un jour, un groupe important de Cassoubrillus s’engouffra dans une des grottes sous-marines dont les îles de l’Archipel possèdent."
+
+    n "Ce fut une petite révolution car une végétation importante de différentes plantes du genre buenos y était présente."
+
+    n "La couleur de ces plantes en revanche étaient fortement noire, du à leur conteneur importante en Uranium 245."
+
+# (Image de comparaison entre deux plantes une avec la couleur verte et l’autre noire) 
+
+    n "Ainsi, de nombreux Cassoubrisus s’établirent dans cette nouvelle niche écologique, certain s’éloignèrent progressivement de l’entrée de cette grotte tandis que d’autres continuèrent à vivre entre l’extérieur et l’intérieur."
+
+    n "Cependant 1050 ans après leurs établissements dans la grotte, une chose incroyable se produisit."
+
+    n "Un petit animal, le Alyseeas Nonis Chordus présent à la surface d’une île planta son fruit sec préféré dans un trou ce qui déclancha l’éruption du plus grand volcan de la planète."
+
+    n "Des cendres vertes, des roches et de la lave bleue coulèrent de ce volcan."
+
+    n "L’impact de ces débris avec le sol provoqua un éboulement sur plusieurs kilomètres de la grotte bloquant complètement l’entrée et enfermant les survivants à l’intérieur."
+
+    n "Ceux qui étaient à l’extérieur en revanche ne ressentir même pas le choc."
+
+    menu : 
+       "A toi de jouer maintenant, avec quelle population souhaites-tu continuer ton aventure évolutive ?"
+
+       "Découvrir la descendance des Casscoubrisus vivant à l’intérieur de la grotte" : 
+        jump chocolavore_profondeur_mode_de_communication
+
+        "Découvrir la descendance des Casscoubrisus vivant à l’extérieur de la grotte"
+
+# (Monsieur ADN apparaît) 
+
+    m "Hey avant de passer à la suite je souhaitais te faire remarquer quelque chose, sais-tu pourquoi les mâles et les femelles disposent d’une queue avec une taille différente ?"
+
+    m "C’est ce qu’on appelle la sélection sexuelle, en effet les mâles disposant de queues les plus longues auront plus de chances d’infliger des dommages à leurs adversaires lors de combats."
+
+    m "Ainsi durant la saison des amours, les mâles qui ont les queues les plus longues auront beaucoup plus de chances de se reproduire que ceux dont les queues sont plus courtes."
+
+    m "Comme tu peux le voir, ce type de sélection est une variation de la sélection naturelle car cette queue ne leur permet pas forcément d’être les plus adaptés à leur environnement mais leur octroi une plus grande chance de se reproduire ainsi qu’à la descendance qui sera engendrée."
+
+    m "Bien allons faisons à nouveau un petit bond dans le temps."
+
+    return
+
+
+label chocolavore_profondeur_mode_de_communication
 
 #(Vue sur la planète 7 depuis l’espace) 
 
